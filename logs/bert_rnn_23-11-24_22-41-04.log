@@ -1,0 +1,35 @@
+> using cuda
+> creating model bert
+1/50 - 2.00%
+[train] loss: 0.5162, acc: 79.10
+[test] loss: 0.4294, acc: 88.20
+2/50 - 4.00%
+[train] loss: 0.4226, acc: 89.08
+[test] loss: 0.4325, acc: 88.10
+3/50 - 6.00%
+[train] loss: 0.3852, acc: 92.65
+[test] loss: 0.4158, acc: 89.80
+4/50 - 8.00%
+[train] loss: 0.3752, acc: 93.58
+[test] loss: 0.4125, acc: 89.80
+5/50 - 10.00%
+[train] loss: 0.3687, acc: 94.35
+[test] loss: 0.4532, acc: 85.20
+6/50 - 12.00%
+[train] loss: 0.3728, acc: 94.00
+[test] loss: 0.4334, acc: 87.90
+7/50 - 14.00%
+[train] loss: 0.3629, acc: 94.90
+[test] loss: 0.4367, acc: 87.60
+8/50 - 16.00%
+[train] loss: 0.3575, acc: 95.53
+[test] loss: 0.4265, acc: 88.60
+9/50 - 18.00%
+[train] loss: 0.3537, acc: 95.88
+[test] loss: 0.4183, acc: 89.50
+10/50 - 20.00%
+[train] loss: 0.3532, acc: 95.88
+[test] loss: 0.4239, acc: 88.50
+11/50 - 22.00%
+[train] loss: 0.3457, acc: 96.75
+[test] loss: 0.4183, acc: 89.30

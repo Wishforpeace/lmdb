@@ -1,0 +1,10 @@
+> creating model bert
+1/50 - 2.00%
+[train] loss: 0.5837, acc: 71.60
+[test] loss: 0.4548, acc: 85.90
+2/50 - 4.00%
+[train] loss: 0.4399, acc: 87.08
+[test] loss: 0.4307, acc: 87.70
+3/50 - 6.00%
+[train] loss: 0.4077, acc: 90.30
+[test] loss: 0.4374, acc: 87.20

@@ -44,7 +44,7 @@ def my_collate(batch,tokenizer):
 def load_dataset(tokenizer,train_batch_size,test_batch_size,model_name,method_name,workers):
     data = pd.read_csv('datasets.csv',sep=None,header=0,encoding='utf-8',engine='python')
     len1 = int(len(list(data['labels']))*0.1)
-    labels = list(data['labels'])
+    labels = list(data['labels'])[0:len1]
     sentences = list(data['sentences'])[0:len1]
 
     tr_sen,te_sen,tr_lab,te_lab = train_test_split(sentences,labels,train_size=0.8)

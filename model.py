@@ -7,7 +7,7 @@ from torch import nn
 
 class Rnn_Model(nn.Module):
     def __init__(self,base_model,num_classes,input_size):
-        super().__init__
+        super().__init__()
         self.base_model = base_model
         self.num_classes = num_classes
         self.input_size = input_size    
@@ -32,4 +32,40 @@ class Rnn_Model(nn.Module):
         outputs,_ = self.Rnn(cls_feats)
         outputs = outputs[:,-1,:]
         outputs = self.fc(outputs)
-        return outputs        
+        return outputs   
+    
+
+
+class Transformer(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
+
+class Gru_Model(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
+class Lstm_Model(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
+class BiLstm_Model(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
+class TextCNN_Model(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
+class Transformer_CNN_RNN(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
+class Transformer_Attention(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
+class Transformer_CNN_RNN_Attention(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+
